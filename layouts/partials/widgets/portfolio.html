@@ -6,6 +6,14 @@
 {{ $items_type := $st.Params.content.page_type | default "project" }}
 {{ $columns := $st.Params.design.columns | default "2" }}
 
+{{/* Localisation */}}
+{{ $i18n := "" }}
+{{ if eq $items_type "project" }}
+  {{ $i18n = "more_projects" }}
+{{ else }}
+  {{ $i18n = "more_pages" }}
+{{ end }}
+
 {{/* Query */}}
 {{ $archive_page := site.GetPage "Section" $items_type }}
 
@@ -93,7 +101,7 @@
     </div>
     <div class="see-all">
       <a href="{{ $archive_page.RelPermalink }}">
-        See all
+        {{ i18n $i18n | default "See all" }}
         <i class="fas fa-angle-right"></i>
       </a>
     </div>
