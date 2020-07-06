@@ -11,6 +11,7 @@ article {
   max-width: 760px;
   padding: 0 20px 0 20px;
   margin: 0 auto 0 auto;
+  text-align: justify;
 }
 
 .page-subtitle {
@@ -135,10 +136,6 @@ article .article-metadata {
 
 .middot-divider::after {
   content: '\00B7';
-}
-
-.article-style {
-  text-align: justify;
 }
 
 .article-style img,
