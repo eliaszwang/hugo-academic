@@ -151,7 +151,7 @@
   translation: Date
 
 - id: last_updated
-  translation: Last updated on
+  translation: Last updated
 
 - id: event
   translation: Event
