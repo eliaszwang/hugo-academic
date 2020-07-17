@@ -72,9 +72,9 @@
 <div class="row">
   <div class="col-12 col-lg-4 section-heading">
     <h1>
-      <a href="{{ $archive_page.RelPermalink }}">
+<!--      <a href="{{ $archive_page.RelPermalink }}"> -->
         {{ with $st.Title }}{{ . | markdownify | emojify }}{{ end }}
-      </a>
+<!--      </a> -->
     </h1>
     {{ with $st.Params.subtitle }}<p>{{ . | markdownify | emojify }}</p>{{ end }}
   </div>
