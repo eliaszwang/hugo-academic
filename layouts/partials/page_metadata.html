@@ -22,7 +22,7 @@
     {{ else }}
       {{ if ne $page.Params.Lastmod $page.Params.Date }}
           {{ i18n "last_updated" }}
-          {{ $lastmod }}
+          {{ $lastmod }} |
       {{ end }}
     {{ end }}
     Published {{ $date }}
