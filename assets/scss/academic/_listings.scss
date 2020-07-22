@@ -37,6 +37,21 @@
   font-size: 1.2rem;
 }
 
+.media.stream-item .article-style h1,
+.media.stream-item .article-style h2,
+.media.stream-item .article-style h3,
+.media.stream-item .article-style h4,
+.media.stream-item .article-style h5,
+.media.stream-item .article-style h6,
+.card-simple .article-style h1,
+.card-simple .article-style h2,
+.card-simple .article-style h3,
+.card-simple .article-style h4,
+.card-simple .article-style h5,
+.card-simple .article-style h6 {
+  font-size: 1rem;
+}
+
 .media.stream-item .article-style,
 .card-simple .article-style {
   margin-top: 2px;
